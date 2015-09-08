@@ -1,0 +1,317 @@
+
+                               Otchlan FAQ 1.0
+
+	Zawsze chcieliscie wiedziec, a baliscie sie zapytac...
+
+1. Gadka wstepna.
+2. Pytania i odpowiedzi.
+
+1. GADKA WSTEPNA
+
+Przede wszystkim czytasz to z dwoch powodow: albo przez przypadek otworzyles
+ten plik i nie wiesz co to, albo interesuje Cie otchlan i jej tajemnice. Byc
+moze wlasnie tu dowiesz sie rzeczy, ktore ulatwia Ci dalsza gre, badz pomoga
+wyjsc z dolka.
+
+2. PYTANIA I ODPOWIEDZI
+
+
+Techniczne:
+
+P1.1:  Dlaczego gra mi nie dziala?
+P1.2:  Dlaczego gra dziala tak wolno?
+P1.3:  Windows XP: "Mam komunikat "C:\Windows\SYSTEM32\AUTOEXEC.NT. Ten
+       plik systemowy nie..."
+P1.4:  Czy jest wersja pod Unixa?
+P1.5:  Skad mam wiedziec jakie sa klawisze skrotow dla umiejetnosci?
+P1.6:  Chcialbym pozmieniac troche sejwy, da sie jakos?
+P1.7:  Czy istnieje jakis klient do Otchlani?
+P1.8:  Ile Otchlan ma linii kodu?
+P1.9:  W jakim jezyku zostala napisana Otchlan?
+P1.10: "Czy mozecie mi przeslac kod zrodlowy"
+P1.11: W opisach zamiast polskich liter mam jakies lazuczki.
+P1.12: Czy musze uzywac polskich liter w poleceniach?
+P1.13: Gram na monitorze mono/hercules i niektore teksty nie sa widoczne, z powodu
+P1.14: Strasznie wolno leci tekst jasnobialym kolorem. Mozna to wylaczyc?
+P1.15: Dodalem sejwy z poprzedniej wersji do katalogu "zapisy", ale gra sie nie
+       chce wczytac. Co robic?
+P1.16: Gra jest w deche, gdzie moge spotkac innych Otchlaniomaniakow?
+P1.16: Gra jest do bani, gdzie moge was zbluzgac?
+P1.17: "Wyslalem do Was list i nie odpowiedzieliscie - ladnie to tak?"
+
+Fabularno-koncepcyjne:
+
+P2.1: Od czego wlasciwie mam zaczac?
+P2.2: O co w tym chodzi?
+P2.3: Jak sie leczyc?
+P2.4: Co zrobic, by sie nie pogubic w miescie?
+P2.5: Czy sa mapy do innych krain niz Mantar?
+P2.6: Czy te gre mozna wygrac?
+P2.7: Czy istnieje tryb multiplayer?
+P2.8: Po czym poznac czy wrog jest ode mnie silniejszy?
+P2.9: Szef biura tajemnic daje mi zlecenia ale nigdy nie udaje mi sie ich wykonac
+P2.10: Co zrobic, by przeczytac ksiazke?
+P2.11: Jakas kobieta mnie zaczepila i poprosila o pomoc. O co tu kurde chodzi?
+P2.12: Dlaczego nie moge sie teleportowac z ogrodu Justyny?
+P2.13: Czy jest jakas krotsza droga z Mantaru do Skulldust?
+P2.14: Skad wziac taki a taki przedmiot na taki a taki poziom?
+P2.15: Co zrobic po zabiciu Syfiana?
+P2.16: Czy czaszki ze sklepu w Skulldust do czegos sie przydaja?
+P2.17: Jak dostac sie do posiadlosci Grimwalda?
+P2.18: Questy sie dziwnie koncza, albo nie moge ich przejsc.
+P2.19: Czy w Otchlani da sie programowac triggery?
+P2.20: Czy wszystkie moby sie respawnuja?
+P2.21: Czy moj poziom zostanie przeniesiony do wersji sieciowej?
+P2.22: Czy mozna (jak np. na arkadii) wylaczyc opisy lokacji?
+P2.23: Chcialbym wspoltworzyc gre. Jak moge sie przylaczyc?
+P2.24: Nie dzialaja mi niektore umiejetnosci. Co jest?
+
+
+
+Techniczne:
+
+
+P1.1: Dlaczego gra mi nie dziala? (DOS)
+O: Powodow moze byc wiele, zacznijmy wiec od poczatku:
+
+- za malo pamieci? Wlasnie, zapytaj sie kogos obeznanego jak zwiekszyc
+  ilosc pamieci konwencjonalnej.
+
+- Runtime Error: natychmiast zglos to komus z ekipy!
+  najlepiej zanotuj tresc bledu (jego numer oraz okolicznosci - co wlasnie
+  robilas/es) i wyslij na weq@otchlan.pl
+
+- inny powod (czarny ekran, reset komputera czy cos): zglos to na powyzszy
+  adres, podaj tez konfiguracje swojego sprzeta, cos wymyslimy.
+
+P1.2: Dlaczego gra dziala tak wolno?
+O: Jezeli masz komputer powyzej 100 Mhz to znaczy, ze w tle (o ile grasz
+   pod Windows) chodza jakies inne procesy. Co istotne, o ile programy typowo
+   windowsowe (Winamp, Windows Commander), niezbyt obciazaja procek, to
+   kazdy odpalony "w trybie MS-DOS" robi to wyraznie - nie odpalaj dodatkowych
+   w trakcie gry w Otchlan.
+   Jesli masz komputer ponizej 100 Mhz i grasz pod Dosem, to pierwsza rzecza
+   jaka sprawdz to czy masz uruchomiony Smartdrive. Otworz plik
+   c:\autoexec.bat i poszukaj czy jest linijka:
+   C:\DOS\SMARTDRV.EXE /X
+   jesli, nie to ja dodaj na koncu. Program ten zabiera kolo 2MB pamieci, ale
+   usprawnia wspolprace w twardym dyskiem.
+
+P1.3: Windows XP: "Mam komunikat "C:\Windows\SYSTEM32\AUTOEXEC.NT. Ten
+       plik systemowy nie..."
+O: Wiaze sie to z brakiem wspomnianego pliku we wspomnianym katalogu i
+   dotyczy uruchamiania wszystkich programow DOS-owych. Nalezy ten plik
+   skopiowac z c:\windows\repair do c:\windows\system32 i najlepiej
+   nadac mu atrybut "tylko do odczytu".
+
+P1.4: Czy jest wersja pod Unixa/linuxa?
+O: Trwaj¹ prace nad takowa.
+
+P1.5: Skad mam wiedziec jakie sa klawisze skrotow dla umiejetnosci?
+O: Znikad - sam sobie musisz je przyporzadkowac - "pomoc /przyporzadkuj"
+
+P1.6: Chcialbym pozmieniac troche sejwy, da sie jakos?
+O: Dla chcacego nic trudnego. Jesli chcesz zepsuc sobie przyjemnosc z grania
+   to zmiana sejwu zajmie Ci niewiele czasu.
+
+P1.7: Czy istnieje jakis klient do Otchlani?
+O: Nic nam o tym nie wiadomo.
+
+P1.8: Ile Otchlan ma linii kodu?
+O: Aktualna wersja 1.3 : ponad 5000
+
+P1.9: W jakim jezyku zostala napisana Otchlan?
+O: W Pascalu, z jedna wstawka assemblerowa (od wlaczania i wylaczania kursora)
+
+P1.10: "Czy mozecie mi przeslac kod zrodlowy"
+O: Niestety jestem bardzo o niego zazdrosny, wiec nie ma mowy. W dodatku
+   obawiam sie, ze mi go odesla poprawionego by chodzil dwa razy szybciej
+   i zarl mniej pamieci.
+
+P1.11: W opisach zamiast polskich liter mam jakies lazuczki.
+O: W zale¿noœci od systemu na ktorym grasz moze byc roznie ustawiona tzw
+   "strona kodowa". W zwiazku z tym Otchlan jest w stani konwertowac "w locie"
+   polskie litery do innego zestawu znakow. Zeby to zmienic wydajac polecenie:
+   "/cpN" gdzie N to numer z przedzialu 1..4, mozesz wybrac sposob
+   konwersji znakow przez Otchlan. Sprawdz "pomoc /konfiguracja".
+   Jezeli grasz pod czystym dosem to powinienes miec ustawiona strone cp852.
+   Mozliwe ze jednak tego nie masz, wiec otworz plik c:\autoexec.bat
+   i sprawdz czy jest tam cos takiego:
+   MODE CON CP PREP=((852) C:\DOS\EGA.CPI)
+   MODE CON CP SELECT=852
+   Jesli nie, to dopisz to na koncu pliku. Jezeli jest cos takiego, ale z
+   innym numerem zamiast 852 - to zapytaj wlasciciela komputera czy mozesz to
+   zmienic. Natomiast jesli przed obydwoma linijkami sa slowka "rem"
+   to je usun.
+
+P1.12: Czy musze uzywac polskich liter w poleceniach?
+O: Nie, Otchlan jest bardzo tolerancyjna, zamiast nich po prostu wpisuj litery
+   obciete o ogonki, kreseczki i kropki.
+
+P1.13: Gram na monitorze mono/hercules i niektore teksty nie sa widoczne, z powodu
+   nie wyswietlania koloru.
+O: To masz stary monitor. Uzyj polecenia "/kolor" by wylaczyc kolorowe teksty.
+
+P1.14: Strasznie wolno leci tekst jasnobialym kolorem. Mozna to wylaczyc?
+O: Tak, sluzy do tego polecenie "/qczas X " gdzie X to jakas liczba.
+   Jesli ustawisz ja na zero to ten tekst bedzie wyswietlany tak szybko jak
+   zwykly. Ostrzegam jednak, ze w ten sposob mozna przegapic niechcacy cos
+   istotnego. Najlepiej w tym przypadku ustawic go na jakies 10.
+
+P1.15: Dodalem sejwy z poprzedniej wersji do katalogu "zapisy", ale gra sie nie
+       chce wczytac. Co robic?
+O: Obecna wersja nie obsluguje zapisow stworzonych w wersji nizszej niz 1.3
+   (jak na przyklad popularna dosc wersja 1.196 czy wersja demo). Wynika to
+   z zbyt glebokich zmian w silniku - gra starymi postaciami bylaby zbyt
+   trudna lub zbyt latwa lub niemozliwa. (w zaleznosci od stopnia zaawnsowania
+   postaci)
+
+P1.16: Gra jest w deche, gdzie moge spotkac innych Otchlaniomaniakow?
+P1.16: Gra jest do bani, gdzie moge was zbluzgac?
+O: Przede wszystkim na www.otchlan.pl, gdzie jest do dyspozycji
+   forum. Poza tym istnieje mozliwosc spotkania z autorami na
+   Falkonie (Lublin-listopad) lub Krakonie (Krakow-styczen/luty) -
+   konwentach fantasyki i science-fiction.
+
+P1.17: "Wyslalem do Was list i nie odpowiedzieliscie - ladnie to tak?"
+O: Jesli nie otrzymales jakiekolwiek odpowiedzi w ciagu trzech dni to albo
+   adres byl nieprawidlowy (ma byc weq@otchlan.pl) albo trafiles akurat na
+   wyjatkowy okres gdy mam zawalona glowe czyms innym - o takich okresach
+   uprzedzam na forum otchlani: forum.otchlan.pl. Mozliwe tez ze napisales
+   do Hoborga, ktory juz sie nie zajmuje Otchlania i akurat zapomnial
+   przeslac list do mnie.
+
+
+
+
+Fabularno-koncepcyjne:
+
+
+P2.1: Od czego wlasciwie mam zaczac?
+O: Na pewno dobrze by bylo odbyc lekcje ktorych udziela ci na samym poczatku
+   Lothar. Przez piewsze pare poziomow sluchaj go uwaznie a nie powinienes
+   miec zadnych problemow. Tworz mapy by nie pogubic sie w miesce, rozmawiaj
+   z mobami, i zdobywaj punkty doswiadczenia. Zawsze tez mozesz poczytac
+   "pomoc" do rozmaitych hasel np "pomoc walka"
+
+P2.2: O co w tym chodzi?
+O: Trzeba naturalnie pokonac wielkeigo zlego dobrze sie przy tym bawiac ;-)
+
+P2.3: Jak sie leczyc?
+O: Zarowno mane jak i hp odnowisz na kilka sposobow:
+   a) opoczynek i spanie - ich fektywnosc moze podniesc przebywajac w pewnych
+      specjalnych lokacjach.
+   b) magiczne napoje, czary: kupisz, lub rzucisz
+   c) kaplan w miescie, ew. inne moby, ktore moga ci udzilic pomocy.
+
+P2.4: Co zrobic, by sie nie pogubic w miescie?
+O: Musisz znac jego rozklad kolego, inaczej pozostanie Ci tylko uzywanie
+   mikstur powrotu, a tych jest malo. Mozesz uzywac reguly prawej reki w
+   chodzeniu po miescie i rysowac mapy. Wazne jest, ze Otchlan w odroznieniu
+   od co niektorych innych gier ma jedna mila ceche "przestrzenna". Mianowicie
+   lokacje maja stala wielkosc czyli np obszedlszy jakis kwadrat z 16 lokacji
+   dojdziesz zawsze do punktu wyjscia - niezaleznie gdzie te lokacje sie
+   znajduja. Wniosek - kartka w kratke bedzie idealna pod spojna mape.
+   Siedziba burmistrza znajduje sie w poludniowo zachodniej czesci miasta.
+   Rozejrzyj sie tam - powinna byc mapa.
+
+P2.5: Czy sa mapy do innych krain niz Mantar?
+O: Nie za duzo. Wydaje nam sie ze najlepsza zabawa to samemu rysowac mapy.
+   Kazdy, kto ma odrobine wyobrazni powinien dobrze znac kraine juz po kilku
+   glebszych wypadach. Mapy mozesz tez znalezc na fan-stronach - tak czy owak 
+   w grze jest okolo 10 map.
+
+P2.6: Czy te gre mozna wygrac?
+O: Poniekad tak. Przejdz do konca ktorys z questow fabularnych ("pomoc quest"),
+   choc gra nie wylaczy sie po jgo skonczeniu.
+
+P2.7: Czy istnieje tryb multiplayer?
+O: Nie i nie zanosi sie.
+
+P2.8: Po czym poznac czy wrog jest ode mnie silniejszy?
+O: Lothar cos o tym wspominal? (napisz "pomoc kontra").
+
+P2.9: Szef biura tajemnic daje mi zlecenia ale nigdy nie udaje mi sie ich
+   wykonac. Co zrobic, by dal mi inne?
+O: Najpierw zaniechaj wykonywania roboty piszac "anuluj zadanie" w biurze, a
+   nastepnie odczekaj do polnocy i juz mozesz sie zajac nastepnym.
+
+P2.10: Co zrobic, by przeczytac ksiazke?
+O: Najpierw ja kup (zalozmy ze ma tytul xxx). Teraz "czytaj xxx" i oto gotowe!
+
+P2.11: Jakas kobieta mnie zaczepila i poprosila o pomoc. O co tu chodzi?
+O: Ta sa wlasnie questy - zadania do wykonania, ktore moga z poczatku
+   wydawac sie jakimis tam glupimi banalami, a z czasem moga przerodzic sie
+   w niezwykle niebezpieczna przygode. Zazwyczaj zrobienie questa oznacza
+   uczciwa nagrode!
+
+P2.12: Dlaczego nie moge sie teleportowac z ogrodu Justyny?
+O: Zaburzenia w polu magicznym powoduja, ze bozony teleportacji T0 rozpadaja sie 
+   od razu na dwa 2 manony (zgodnie z zasada zachowania magii), wiec nie da
+   sie ich ogniskowac w zadnym kierunku. Inna odpowiedz brzmi "bo nie" :P
+
+P2.13: Czy jest jakas krotsza droga z Mantaru do Skulldust?
+O: Droga jest zawsze ta sama, ale mozna ja przebyc teleportacyjnie. Np. za 
+   pieniadze u magow.
+
+P2.14: Skad wziac taki a taki przedmiot na taki a taki poziom?
+O: To czesto pytanie, i choc istnieje krotki spis "najlepszych" przedmiotow to
+   nie zawsze ma sie do nich dostep. Po prostu trzeba zbierac, ientyfikowac,
+   porownywac, kupowac i sprzedawac.
+
+P2.15: Co zrobic po zabiciu Syfiana? (i tym podobne)
+O: Coz, nie zawsze nakoncu questa sa pieniadze, fanfary i usciski dloni
+   prezesa (czy burmistrza). Jak to w zyciu, czasami sie konczy na wlasnej
+   satysfakcji. Jednakze tez jest mozliwe, ze zakonczenie queta bylo jednym
+   z wielu i nastepnym razem mozesz sprobowac innego.
+
+P2.16: Czy czaszki ze sklepu w Skulldust do czegos sie przydaja?
+O: Nie. Sklep jest po to, bys mogl sprzedac czaszki "z zewnatrz".
+
+P2.17: Jak dostac sie do posiadlosci Grimwalda?
+O: Podobno ktos w Otchlani wie, ale my nie :P
+
+P2.18: Questy sie dziwnie koncza, albo nie moge ich przejsc.
+O: Questy w Otchlani roznia sie od zadan w innych grach. Przede wszystkim,
+   niekoniecznie sie musza konczyc w sposob pozytywny dla bohatera
+   (np. nagroda). Poza tym rzadko kiedy daja mozliwosc ponownego wyboru,
+   (jesli odmowiles wziecia questa, to nie ma przepros, juz go nie dostaniesz)
+   Poza tym niektore sie ciagna w czasie inne sa do zrobienia od reki.
+   W dodatku quest moze byc faktycznie trudny i wymagac szczescia, albo
+   wyjatkowej zdolnosci kojarzenia.
+
+P2.19: Czy w Otchlani da sie programowac triggery?
+O: Nie.
+
+P2.20: Czy wszystkie moby sie respawnuja?
+O: Nie. Sa specjalne moby (np. questowe) ktorych to nie dotyczy. Równie¿ czas
+   repsawnu moze byc rozny dla roznych mobow.
+
+P2.22: Czy mozna (jak np. na arkadii) wylaczyc opisy lokacji?
+O: Nie
+
+P2.23: Chcialbym wspoltworzyc gre. Jak moge sie przylaczyc?
+O: Przede wszystkim skontaktuj sie z Weq'iem. W zasadzie jedyna wspolpraca
+   jaka jestesmy zainteresowani to tworzenie krain, ale zanim sie rozkrecisz
+   napisz pare (powiedzmy 10) dowolnych lokacji 4-5 linijkowych, a Ja ocenie
+   czy to jest to i wtedy ewentualnie rozkreci sie wspolpraca. Z gory jednak
+   uprzedzamy, ze jest to trudna robota wymagajaca duzo silnej woli. Mysmy tez
+   mieli okolo 8 autorow a w sumie krainy sa autorstwa tylko nas dwoch.
+
+P2.24: Nie dzialaja mi niektore umiejetnosci. Co jest?
+O: Po pierwsze zauwaz ze w zaleznosci od umiejetnosci, trzeba sie do niej
+   dobrac w inny sposob - polecam "pomoc umiejetnosc". Umiejetnosc albo jest
+   automatyczna (jesli tylko mozesz jej uzyc, to jej uzywasz), wywolywana
+   klawiszem skrotu (umiejetnosci w walce - jak na przyklad lewy sierpowy),
+   albo w przypadku czesci czarow, przez polecenie "czaruj umiejetnosc".
+   Ale najpierw sprawdz haslo "pomoc <nazwa umiejetnosci>"
+
+
+
+                             www.otchlan.pl
+
+
+To jest koniec czesci pierwszej FAQ'a. Jesli nadal drecza was jakies kwestie,
+				PISZCIE.
+
+                             weq@otchlan.pl

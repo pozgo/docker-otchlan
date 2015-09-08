@@ -1,0 +1,132 @@
+
+                                O T C H L A N
+
+  Witajcie drodzy Sudownicy,(1)
+
+  Zatem zainstalowaliście już Otchłań na swoich komputerkach, może i już
+trochę pograliście i z nudów czytacie ten wstęp. Zapewne spora część z Was
+już grała w demo, Ci co nie, mogą śmiało przeskoczyć dalej i ominąć ten
+fragment. Od czasu dema minęło 15 lat; mimo naszych ambitnych założeń 
+niektórych rzeczy nie udało się zrobić, a na inne zabrakło chęci lub inwencji 
+twórczej. Również zespól pracujący nad gra zwęził się do jednej osoby oraz
+testerów. Na pewno jednak wersja 1.3 różni się bardzo od dema jak i od 
+późniejszych wersji. Tak czy siak, po wielu odkładanych premierach, wreszcie
+ujrzała światło dzienne pełna, finalna wersja Otchłani. I choć nie wygląda do 
+końca tak jakbyśmy chcieli, to jesteśmy z niej dumni. W dobie akceleratorów i
+Pentium x-core, my stawiamy na wyobraźnię i dobra zabawę. I sadze ze się nie
+zawiedziemy.
+
+  Kto nie grał w demo - spieszę z wyjaśnieniami. Otchłań to gra tekstowa,
+powiedzmy ze RPG, która sposobem wykonania i przedstawieniem świata nawiązuje
+do MUD-ow. Były to gry tekstowe działające w sieci, gdzie horda ludzi z całego
+kraju wygłupia się w wirtualnym - zazwyczaj średniowiecznym - świecie. Z MUD-ów
+zaczerpnąłem sposób przedstawiania świata, ale od początku do kona gra była
+pomyślana tak by bawić jednego gracza. Mam nadzieje, ze udało nam się grę napisać
+tak by nie była za trudna i by zapoznanie się z jej funkcjonowaniem nie
+sprawiało nikomu trudności oraz by wciągnęła na dłuuugie wieczory.
+
+  (1) Termin SUD (Single User Dungeon) w przeciwieństwie do MUD (Multi User
+      Dungeon) oznacza grę dla jednej osoby.
+
+1. Wymagania sprzętowe.
+
+  Gra powstawała na 486DX2, potem na Celeronie a obecnie na pentium M. Oznacza
+to to, ze o ile na początku była optymalizowana pod słabe procesory, obecnie
+przestało to być potrzebne (abstrahując od "estetyki programowania"). Jednakże
+minimalne wymagania są takie: na zoptymalizowanym 386 powinno się dać już 
+grac, na 486 powyżej 66 Mhz powinno być przyjemnie, RAM nie jest potrzebny. 
+Napęd dyskietek tez nie, ale skądś trzeba zgrać Otchłań. Kolorowy monitor - 
+niekoniecznie - ale podbija klimat. Gra chodzi po Windows (Vista, XP, 7, 8.0)
+na architekturze 32 i 64. Odnośnie innych systemów: Linux umożliwia grę pod
+Wine, ale jest również wersja autonomiczna - dostępna wkrótce.
+
+
+2. O co tu chodzi?
+
+   Rzecz jest prosta; chodzisz po świecie, zdobywasz doświadczenie a co za
+tym idzie poziomy, ćwiczysz swe umiejętności i zdobywasz nowe. Wykonujesz 
+zadania za które również są punkty doświadczenia; gromadzisz coraz to lepsze 
+uzbrojenie, a z czasem kupujesz chatę, aż w końcu zgodnie z fabułą ratujesz 
+świat. Kolejność nie jest obowiązkowa, tak samo jak cokolwiek innego w tej 
+grze. Do dyspozycji masz około 200 poleceń, czy nawet więcej. 
+Parę ogólnych reguł, które się nasuwają w porównaniu z innymi grami 
+
+- Punkty zdobywa sie za zabijanie mobów (NPC-ow) i za zadania; TRACI się je
+  za przegranie (śmierć) lub ucieczkę z walki (mniej za to drugie).
+
+- Trenować i ćwiczyć możesz teoretycznie tylko w swoich gildiach, zależnie
+  od profesji w odróżnieniu od innych gier (diablo2) gdzie możesz podnosić
+  umiejętności kiedy chcesz.
+
+- Na tym Sudzie obowiązują inne założenia czasowe niż na mudach sieciowych
+  (wynikające właśnie z sieci) czyli: jeżeli nic nie robisz czas nie upływa.
+  Nie warto zostawiać bohatera na parę godzin, odchodząc od klawiatury, żeby
+  się zregenerował, bo nic się nie stanie. Natomiast wydanie "pustego" polecenia
+  np. wciśnięcie po prostu enter przeskakuje o małą porcję czasu (przydatne
+  gdy na przykład ktoś ci w grze każe poczekać chwilkę bo zaraz wróci)
+
+- Pierwsze co zrób to połaź trochę po mieście, i przede wszystkim dowiedz się
+  gdzie jest twoja gildia. W mieście nie ma agresywnych mobów (czyli takich
+  które same zaczynają walkę) wiec nie ma się czego bać. Mapa samego miasta
+  jest do obejrzenia w siedzibie burmistrza (południowo zachodnia część miasta).
+
+- Warto skorzystać z pomocy trybu nadzorującego - czyli pomocy maga Lothara. 
+  Brzmi może trochę dziwnie, ale dla początkujących to podstawa. Wprowadzi cie
+  on w podstawy mechaniki gry, ale należy pamiętać ze jego wprowadzenie to dopiero 
+  jakieś 20% rzeczy które powinieneś wiedzieć.
+
+- Cały czas jest dostępna pomoc wewnątrz gry. Zapoznaj się z hasłem "pomoc";
+  możesz również wyprobowywać kombinacje "pomoc walka" "pomoc miecze" itp
+  Nie bójcie się używać pomocy: w ten sposób (i tylko w ten sposób) poznacie 
+  większość ważnych i jakże użytecznych komend.
+
+3. MUD vs SUD
+
+	MUD to skrót od Multi User Dungeon. MUD'y powstały bardzo dawno temu, gdy 
+komputery przypominały szafy królewskie, a większość z Was, gracze, budowała
+babki z piasku, lub czekała jeszcze na swoje zaistnienie. MUD był tekstowym
+fantastycznym światem, do którego podłączali się gracze z całego świata za
+pośrednictwem sieci. Z początku były to prymitywne gry polegające na
+penetrowaniu schematycznych podziemi w grupie śmiałków, stad właśnie pierwotna
+nazwa. Do dziś mudy maja tysięcy zwolenników, dzięki swojej uniwersalności
+i temu, ze nie wymagają praktycznie nic z mocy obliczeniowej komputera. Właśnie
+za sprawą fascynacji mudami w młodzieńczych latach stworzyliśmy dla was
+Otchłań: by każdy mógł sprobować tego u siebie w domu. Jako, ze nie
+istniało nic podobnego nazwaliśmy ten typ gry SUD - Single User Dungeon. 
+Otchłań to SUD dla każdego miłośnika gier fabularnych, fantastyki samej w sobie.
+
+4. Pograłem i co dalej?
+
+  Po pierwsze: wsparcie.
+Jeżeli według Ciebie Otchłań spełniła Twoje oczekiwania, to następnym krokiem
+jest finansowe wsparcie dla autora ;-). Otchłań powstawała dość długo, obecny 
+serwer wraz z domeną www.otchlan.pl niestety również nie jest za darmo.
+Cegiełki będą dostępne na stronie www.otchlan.pl
+  W wersji do 1.2 istniał mechanizm rejestracji, z którego obecnie 
+zrezygnowałem. Nadal mnie interesują wasze opinie, ktore jednakze w związku
+z rozwojem internetu mam nadzieje poznać przez forum (www.forum.otchlan.pl). 
+
+  Po drugie: rozwój
+Sama Otchłań obecnie stanowi już raczej zamkniętą całość i kolejne krainy
+czy moby nie będą powstawać. Możliwości są duże, ale obecnie wole się
+zająć albo nowym projektem, albo innymi pilnymi sprawami (np zarabianiem
+pieniędzy na życie :P) Nie wykluczam jednak że poświęcę trochę czasu na
+ko0mpilację Otchłani pod inne systemy (MacOS, Android)
+
+  Po trzecie: przyszłość - Otchłań II
+Niewykluczone, że wyjdzie Otchłań II. Jej kształt nie jest jeszcze określony;
+może to być zarówno nowy silnik na starym świecie + rozszerzenie tegoż świata,
+lub nowy silnik i nowy świat. Mam tez pomysł na nieco inne podejście do 
+zagadnienia Otchłani; jak się sprawy potoczą trudno teraz wyrokować. Należy
+tez pamiętać, że pisanie zajmuje naprawdę dużo czasu, którego mam coraz mniej.
+
+  Po czwarte: pomoc w grze?
+Gdybyście szukali pomocy, to na pewno znajdziecie ja na której z poniższych
+stron, gdzie są także do waszej dyspozycji fora :
+Strona glowna:    www.otchlan.pl
+Facebook:         www.facebook.pl/otchlansud
+
+Jakby co piszcie! :
+     Weq (weq@otchlan.pl)
+
+

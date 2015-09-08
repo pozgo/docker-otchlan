@@ -1,0 +1,36 @@
+Otchlan 1.3 beta - 1.3 v71
+====================================================
+- 0000743: [Blad plikow danych] Crash w rozmowie z Naganiaczem w Hexenlore ("pokona³em parê bestii") (Weq) - rozwi¹zany.
+- 0000744: [Zmiana] Licznik na stronie g³ównej odlicza do dzisiaj (23.04), a nie jak by³o w filmie do pi¹tku 24.04 (Weq) - rozwi¹zany.
+- 0000750: [Blad plikow danych] b³êdne kierunki na dziedziñcu (Weq) - rozwi¹zany.
+- 0000734: [Blad silnika] spanie w wynajêtym pokoju (Weq) - rozwi¹zany.
+- 0000747: [Blad silnika] Wybranie oprawcy z menu profesji wy³¹cza grê (Weq) - rozwi¹zany.
+- 0000746: [Blad plikow danych] Uzbrojenie nie pokazuje rêkawiczek jedwabnych (Weq) - rozwi¹zany.
+- 0000737: [Blad plikow danych] Gnomia miasja - je¿eli gnom ostrzeg³ dwukrotnie, ¿e trzeba iœæ do oprycha, oprcyh go potem nie zauwa¿a (Weq) - rozwi¹zany.
+- 0000735: [Blad plikow danych] alias "lol" (Weq) - rozwi¹zany.
+- 0000736: [Blad plikow danych] B³êdne kierunki w Zamglona œcie¿ka w ogrodzie Grimwalda (Weq) - rozwi¹zany.
+- 0000729: [Zmiana] Nieaktualna odpowiedŸ barmana w "Pod Klonem" (Weq) - rozwi¹zany.
+- 0000710: [Blad silnika] Po wpisaniu komendy np. "k *ch" kupuje przedmit za z³oto, ale przedmiot siê nie pojawia. (Weq) - rozwi¹zany.
+- 0000699: [Blad silnika] Tutorial: po "spojrz tabliczka" turtorial zamiera (Weq) - rozwi¹zany.
+- 0000722: [Blad plikow danych] Mo¿liwoœæ rzuczenia sztyletem powy¿ej poziomu (Weq) - rozwi¹zany.
+- 0000720: [Blad plikow danych] œwidrowiec w w mantarze (Weq) - rozwi¹zany.
+- 0000721: [Gramatyka/literowka] literówka stra¿nika na wschód od œwi¹tyni (Weq) - rozwi¹zany.
+- 0000728: [Blad plikow danych] Stra¿nik wskazuje ratusz na Nadbrze¿nej (a powinien na Klifowej) (Weq) - rozwi¹zany.
+- 0000725: [Blad silnika] Crash w tunelach na wschód od Mantar (Weq) - rozwi¹zany.
+- 0000727: [Blad silnika] "zapytaj starzec cmentarz" wywala grê (Weq) - rozwi¹zany.
+
+Otchlan 1.3 beta - 1.3 v70
+====================================================
+- 0000719: [Blad plikow danych] Samouczek - wojownik, Lothar nie dociera do Gildii. (Weq) - rozwi¹zany.
+- 0000718: [Balans] W okolicy poziomu 7 nie da siê przebiæ przez obronê przeciwnika (Weq) - rozwi¹zany.
+- 0000716: [Blad silnika] Zadania z biura tajemnic polegaj¹ce na dostarczaniu przesy³ek (Weq) - rozwi¹zany.
+- 0000711: [Blad plikow danych] Lothar startuje kamienne serce mimo pobuty w Hexenlore (Weq) - rozwi¹zany.
+- 0000714: [Blad silnika] Mag daje pieniadze w nieskonczonosc (Weq) - rozwi¹zany.
+- 0000717: [Blad silnika] Dwie Victorie w karczmie (kamienne serce) (Weq) - rozwi¹zany.
+- 0000707: [Blad plikow danych] Questa z trzema listami mo¿na oddawaæ w nieskoñczonoœæ (Weq) - rozwi¹zany.
+- 0000708: [Blad plikow danych] Brak opisu "read past end of file" na n od lokajci "upadowa" (Weq) - rozwi¹zany.
+- 0000701: [Blad silnika] Hexenlore: zgubi³ sie mob 189 (151,305,12) (Weq) - rozwi¹zany.
+- 0000702: [Gramatyka/literowka] Literówka "wszystkie polecenie" (Weq) - rozwi¹zany.
+- 0000700: [Blad silnika] Tutorial: czary nie s¹ autoamtycznie przyporz¹dkowane (Weq) - rozwi¹zany.
+- 0000704: [Blad plikow danych] Wejsæie do pólnocnej klatki wywale Exception (Weq) - rozwi¹zany.
+- 0000706: [Blad silnika] Wyrzuca z gry na arenie (Weq) - rozwi¹zany.
