@@ -1,0 +1,7 @@
+version: '3'
+services:
+  otchlan:
+    build: .
+    volumes:
+      - './zapisy:/root/.config'
+    working_dir: /otchlan
